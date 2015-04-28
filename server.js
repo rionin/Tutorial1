@@ -6,6 +6,6 @@ var resCount = 0;
 http.createServer(function(req, res) {
 console.log('Response count:' + ++resCount);
 res.writeHead(200, { 'Content-Type': 'text/plain' });
-res.end('Hello World\n');
+res.end('Hello World HAHA\n');
 console.log('Sent response to client.');
 }).listen(port);
